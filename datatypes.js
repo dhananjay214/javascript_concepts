@@ -37,4 +37,10 @@ console.log("typeof notDefined:", typeof notDefined);
 console.log("typeof emptyValue:", typeof emptyValue);
 console.log("typeof sym:", typeof sym);
 
+<<<<<<< HEAD
 console.log("i am trying to chaneg the files directly from main branch of git....let's see what happens")
+=======
+console.log(
+  "i am trying to change the files directly from main branch of git....let's see what happens"
+);
+>>>>>>> c4ff859 (WIP: saving my changes)
