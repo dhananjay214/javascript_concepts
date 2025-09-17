@@ -66,5 +66,3 @@ const Course = {
 };
 const { instructor } = Course;
 console.log(instructor);
-
-
