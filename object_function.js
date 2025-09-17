@@ -5,6 +5,13 @@ const student = {
   age: 24,
   address: "pune",
   occupation: "developer",
+  contact: {
+    phone: 1234567890,
+    email: "dhananjay@example.com",
+    city: "Pune",
+    state: "Maharashtra",
+    country: "India",
+  },
 };
 student.age = 25;
 console.log(student);
@@ -26,6 +33,7 @@ function studentDetails() {
 }
 
 studentDetails();
+console.log("Student contact info:", student.contact);
 
 // ===== Object Example =====
 const person = {
@@ -36,6 +44,10 @@ const person = {
   },
 };
 
+console.log(Object.keys(person));
+console.log(Object.values(person));
+console.log(Object.entries(person));
+
 console.log(person.greet());
 
 // ===== Function Example =====
@@ -44,3 +56,15 @@ function add(a, b) {
 }
 
 console.log("Addition:", add(5, 3));
+
+console.log("==========Learnig destructuring in objects=====");
+const Course = {
+  coursename: "JavaScript",
+  duration: "6 months",
+  instructor: "Sunny",
+  fees: 15000,
+};
+const { instructor } = Course;
+console.log(instructor);
+
+
