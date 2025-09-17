@@ -6,7 +6,9 @@ const student = {
   address: "pune",
   occupation: "developer",
 };
+student.age = 25;
 console.log(student);
+Object.freeze(student); // Prevents any modifications to the object
 
 function studentDetails() {
   let SPhone = 1234567890;
