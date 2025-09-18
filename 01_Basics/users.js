@@ -78,8 +78,5 @@ console.log(users.filter((user) => user.address.city === "Pune"));
 // 25
 
 //console.log(users.map((user) => user.email));
- const carvalue{
-        
 
-
- // 
+//
