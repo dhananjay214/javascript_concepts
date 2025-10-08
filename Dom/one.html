@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body style="background-color: aqua">
+    <div class="bg-black">
+      <h1 class="heading">DOM learning with chai aur code</h1>
+      <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednsday</div>
+        <div class="day">Thursday</div>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus
+        porro, natus provident sit laborum corporis eveniet voluptatibus at,
+        consectetur dolor commodi laudantium cumque quae dolorem? Consectetur
+        vel eveniet doloribus.
+      </p>
+    </div>
+  </body>
+  <script>
+    const parent = document.querySelector(".parents");
+    //  console.log(parent);
+    //  console.log(parent.children);
+    //  console.log(parent.children[i].innerHTML);
+    for (let i = 0; i < parent.children.length; i++) {
+      console.log(parent.children.length);
+    }
+  </script>
+</html>
